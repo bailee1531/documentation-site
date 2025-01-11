@@ -1,5 +1,5 @@
 site:
-  title: ARM Hangman
+  title: Bailee's Projects
   start_page: arm-hangman::index.adoc
 content:
   sources:
