@@ -1,6 +1,5 @@
 site:
   title: ARM Hangman
-  url: https://docs.armHangman.com
   start_page: arm-hangman::index.adoc
 content:
   sources:
@@ -17,3 +16,6 @@ ui:
       static_files:
       - .nojekyll
   - path: .nojekyll
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
