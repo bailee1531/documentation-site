@@ -7,15 +7,19 @@ content:
     branches: HEAD
     start_path: docs
 ui:
-  #bundle:
-  #  url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
-  #  snapshot: true
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
   supplemental_files:
   - path: ui.yml
     contents: |
       static_files:
       - .nojekyll
   - path: .nojekyll
+  - path: css/site.css
+    contents: ./supplemental-ui/css/site.css
+  - path: css/search.css
+    contents: ./supplemental-ui/css/search.css
 antora:
   extensions:
   - require: '@antora/lunr-extension'
