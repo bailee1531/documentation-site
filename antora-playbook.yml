@@ -20,6 +20,10 @@ ui:
     contents: ./supplemental-ui/css/site.css
   - path: css/search.css
     contents: ./supplemental-ui/css/search.css
+  - path: img/chevron.svg
+    contents: ./supplemental-ui/img/chevron.svg
+  - path: img/home.svg
+    contents: ./supplemental-ui/img/home.svg
 antora:
   extensions:
   - require: '@antora/lunr-extension'
