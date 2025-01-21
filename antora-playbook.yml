@@ -6,6 +6,9 @@ content:
   - url: https://github.com/bailee1531/ARMHangman.git
     branches: HEAD
     start_path: docs
+  - url: https://github.com/bailee1531/CS424-Programs.git
+    branches: HEAD
+    start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
