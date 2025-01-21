@@ -679,7 +679,7 @@ body.-toc aside.toc.sidebar {
 
 .home-link {
 	display: block;
-	background: url(../img/home.svg) no-repeat 50%;
+	background: url(../img/home.svg);
 	height: 1.25rem;
 	width: 1.25rem;
 	margin: .625rem
